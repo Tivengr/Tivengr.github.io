@@ -1,0 +1,49 @@
+H1{
+	color:blue;
+	font-family:Castellar;
+
+}
+P{
+	color:black;
+	font-family:Times New Roman;
+	font-style:italic;
+	font-size:20px;
+	position: above;
+}
+body{
+	background-image: url(https://cdn.pixabay.com/photo/2016/08/31/22/36/background-1634817_1280.jpg);
+  background-size:cover;
+  background-image:left;
+}
+
+
+header {
+  background: black;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+nav {
+  float: left;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li:hover {
+  background: blue;
+}
